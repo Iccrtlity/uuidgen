@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>uuidgen – quick UUID v4 generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>uuidgen</h1>
+    <p>Generate UUID v4 instantly</p>
+
+    <div class="controls">
+      <button id="gen-single">Generate 1</button>
+      <button id="gen-10">Generate 10</button>
+      <button id="gen-50">Generate 50</button>
+      <button id="gen-100">Generate 100</button>
+    </div>
+
+    <div id="output" class="output hidden">
+      <div class="toolbar">
+        <button id="copy-all">Copy all</button>
+      </div>
+      <pre id="uuid-list"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
